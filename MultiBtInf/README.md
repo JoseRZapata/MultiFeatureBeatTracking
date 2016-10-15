@@ -1,15 +1,15 @@
-MultiFeature Beatracking (Information Gain)
-=========================================== 
+MultiFeature Beat tracking (Information Gain)
+=============================================
 
 Submission of the Multi Feature Beat tracker to the MIREX 2013 Audio Beat Tracking task,
 Using the Beat tracking estimation results from 6 different onset detection functions:
 
-• Complex Spectral Difference
-• Energy Flux
-• Harmonic Function
-• Sub Bands weight
-• Phase Slope Function
-• Spectral Flux Log Filtered
+- Complex Spectral Difference
+- Energy Flux
+- Harmonic Function
+- Sub Bands weight
+- Phase Slope Function
+- Spectral Flux Log Filtered
 
 This configuration (Multi InfG) of onset detection funtions and the comparing results with other Beat trackers were presented in J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Transactions on Audio, Speech and Language Processing. 22(4), pp. 816-825, 2014. http://dx.doi.org/10.1109/TASLP.2014.2305252.
 
