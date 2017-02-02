@@ -11,7 +11,11 @@ Using the Beat tracking estimation results from 6 different onset detection func
 - Phase Slope Function
 - Spectral Flux Log Filtered
 
-This configuration (Multi InfG) of onset detection funtions and the comparing results with other Beat trackers were presented in J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Transactions on Audio, Speech and Language Processing. 22(4), pp. 816-825, 2014. http://dx.doi.org/10.1109/TASLP.2014.2305252.
+This beat tracker uses a commitee strategy to obtain the most agreement estimation using the information Gain Measure over six beat estimations.
+The output of the algorithm is the beat estimation times. 
+
+This configuration (Multi InfG) with six onset detection funtions and the comparison results with other Beat trackers were presented in:
+J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Transactions on Audio, Speech and Language Processing. 22(4), pp. 816-825, 2014. http://dx.doi.org/10.1109/TASLP.2014.2305252
 
 The beat tracker uses a commitee strategy to obtain the most agreement estimation using the Regularity Measure.
 
