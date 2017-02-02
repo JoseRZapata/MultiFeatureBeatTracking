@@ -11,16 +11,13 @@ Using the Beat tracking estimation results from 6 different onset detection func
 - Phase Slope Function
 - Spectral Flux Log Filtered
 
-This configuration (Multi InfG) of onset detection funtions and the comparing results with other Beat trackers were presented in J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Transactions on Audio, Speech and Language Processing. 22(4), pp. 816-825, 2014. http://dx.doi.org/10.1109/TASLP.2014.2305252.
+This beat tracker uses a commitee strategy to obtain the most agreement estimation using the information Gain Measure over six beat estimations.
+The output of the algorithm is the beat estimation times with a confidence value. 
 
-The beat tracker uses a commitee strategy to obtain the most agreement estimation using the information Gain Measure and Regularity.
-
-For more information:
-
+This configuration (Multi InfG) with six onset detection funtions and the comparison results with other Beat trackers were presented in:
 J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Transactions on Audio, Speech and Language Processing. 22(4), pp. 816-825, 2014. http://dx.doi.org/10.1109/TASLP.2014.2305252
 
-J.R. Zapata, A. Holzapfel, M.E.P. Davies, J.L. Oliveira, F. Gouyon, "Assigning a confidence threshold on automatic beat annotation in large datasets", International Society for Music Information Retrieval Conference (ISMIR'12), pp. 157-162, 2012. 
-http://ismir2012.ismir.net/event/papers/157_ISMIR_2012.pdf
+The beat tracker uses a commitee strategy to obtain the most agreement estimation using the information Gain Measure (MultiBtIfn) or Regularity (MultiBtReg).
 
 Platform 
 ----------
@@ -35,8 +32,15 @@ In MATLAB The algorithm is called as follows: (Only .Wav audio files)
 
 <code>$ MultiBtReg('InputAudioFile.wav','OutputTextFile.txt'); </code>
 
-The output is a Text file with the Beat positions in seconds of the audio file
+The output is a text file with the Beat positions in seconds of the audio file and
+a text file with the confidence value of the estimation (MMA).
+MMA confidence value was only validated with the MultiBtInf approach
+The quality of beats estimation based on the computed confidence value:
 
+- [0, 1) very low confidence, the input signal is hard for the employed candidate beat trackers
+- [1, 1.5] low confidence
+- (1.5, 3.5] good confidence, accuracy around 80% in AMLt measure
+- (3.5, 5.32] excellent confidence
 
 Essentia Implementation (Fast)
 -----------------------
