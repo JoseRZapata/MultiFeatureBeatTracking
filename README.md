@@ -1,4 +1,4 @@
-MultiFeature Beat Tracking (Information Gain and Regularity)
+Multi Feature Beat Tracking (Information Gain and Regularity)
 ========================================================== 
 
 Submission of the Multi Feature Beat tracker to the MIREX 2013 Audio Beat Tracking task,
