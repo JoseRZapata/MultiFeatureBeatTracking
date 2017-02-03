@@ -38,10 +38,10 @@ a text file with the confidence value of the estimation (MMA).
 MMA confidence value was only validated with the MultiBtInf approach
 The quality of beats estimation based on the computed confidence value:
 
-- [0, 1) very low confidence, the input signal is hard for the employed candidate beat trackers
-- [1, 1.5] low confidence
-- (1.5, 3.5] good confidence, accuracy around 80% in AMLt measure
-- (3.5, 5.32] excellent confidence
+- [0, 1)      -> very low confidence, the input signal is hard for the employed candidate beat trackers
+- [1, 1.5]    -> low confidence
+- (1.5, 3.5]  -> good confidence, accuracy around 80% in AMLt measure
+- (3.5, 5.32] -> excellent confidence
 
 Essentia Implementation
 -----------------------
