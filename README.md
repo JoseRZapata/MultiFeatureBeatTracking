@@ -35,9 +35,9 @@ In MATLAB The algorithm is called as follows: (Only .Wav audio files)
 <code>$ MultiBtReg('InputAudioFile.wav','OutputTextFile.txt'); </code>
 
 Output:
-OutputTextFile.txt       -> text file with the estimation of Beat positions in seconds of the audio file
-Tempo-OutputTextFile.txt -> text file with the Tempo estimation in bpm 
-MMA-OutputTextFile.txt   -> text file with the confidence value of the estimation (MMA). (Only for MultiBtInf)
+- OutputTextFile.txt       -> text file with the estimation of Beat positions in seconds of the audio file
+- Tempo-OutputTextFile.txt -> text file with the Tempo estimation in bpm 
+- MMA-OutputTextFile.txt   -> text file with the confidence value of the estimation (MMA). (Only for MultiBtInf)
 
 
 The quality of beats estimation based on the computed confidence value:

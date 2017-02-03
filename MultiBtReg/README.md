@@ -34,8 +34,8 @@ In MATLAB The algorithm is called as follows: (Only .Wav audio files)
 <code>$ MultiBtReg('InputAudioFile.wav','OutputTextFile.txt'); </code>
 
 Output:
-OutputTextFile.txt -> text file with the estimation of Beat positions in seconds of the audio file
-Tempo-OutputTextFile.txt -> text file with the Tempo estimation in bpm 
+- OutputTextFile.txt -> text file with the estimation of Beat positions in seconds of the audio file
+- Tempo-OutputTextFile.txt -> text file with the Tempo estimation in bpm 
 
 Ex:
 <code>$ MultiBtReg('train9.wav','output.txt'); </code>
