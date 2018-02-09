@@ -1,6 +1,6 @@
 # MultiFeature Beat Tracking (Information Gain and Regularity)
 - [How to use](#how-to-use)
-- [MultiFeature Beat tracker jupyter notebook example](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb))
+- [MultiFeature Beat tracker -> jupyter notebook example](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
 - [Essentia Implementation](#essentia-implementation-fast)
 - [Application](#application)
 
@@ -25,8 +25,9 @@ J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Tra
 The beat tracker uses a commitee strategy to obtain the most agreement estimation using the information Gain Measure (MultiBtIfn) or Regularity (MultiBtReg).
 
 ## How to use
+### Python
 In Python can be use using Essentia, there is an example in a jupyter notebook [http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
-
+### Matlab
 In MATLAB 2013a or Higher The algorithm is called as follows: (Only .Wav audio files)
 
 <code>$ MultiBtInf('InputAudioFile.wav','OutputTextFile.txt'); </code>
