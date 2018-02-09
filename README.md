@@ -1,6 +1,8 @@
 # MultiFeature Beat Tracking (Information Gain and Regularity)
 - [How to use](#how-to-use)
-- [MultiFeature Beat tracker -> Python jupyter notebook example](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
+   * [Python jupyter notebook example](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
+   * [Matlab MultiFeature Beat Tracking (Information Gain) ](https://github.com/JoseRZapata/MultiFeatureBeatTracking/tree/master/MultiBtInf)
+   * [Matlab MultiFeature Beat Tracking (Regularity)](https://github.com/JoseRZapata/MultiFeatureBeatTracking/tree/master/MultiBtReg)
 - [Essentia Implementation](#essentia-implementation-fast)
 - [Application](#application)
 
