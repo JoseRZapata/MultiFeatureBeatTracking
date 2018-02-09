@@ -1,7 +1,7 @@
 # MultiFeature Beat Tracking (Information Gain and Regularity)
-- [How to use](#heading)
-- [Essentia Implementation](#heading-1)
-- [Application](#heading-2)
+- [How to use](#how-to-use)
+- [Essentia Implementation](#essentia-implementation-fast)
+- [Application](#application)
 
 Submission of the Multi Feature Beat tracker to the MIREX 2013 Audio Beat Tracking task,
 Using the Beat tracking estimation results from 6 different onset detection functions:
@@ -22,7 +22,7 @@ This configuration (Multi InfG) with six onset detection funtions and the compar
 J.R. Zapata, M. Davies and E. Gómez, "Multi-feature beat tracker," IEEE/ACM Transactions on Audio, Speech and Language Processing. 22(4), pp. 816-825, 2014. http://dx.doi.org/10.1109/TASLP.2014.2305252
 
 The beat tracker uses a commitee strategy to obtain the most agreement estimation using the information Gain Measure (MultiBtIfn) or Regularity (MultiBtReg).
-<!-- toc -->
+
 ## How to use
 
 In MATLAB 2013a or Higher The algorithm is called as follows: (Only .Wav audio files)
