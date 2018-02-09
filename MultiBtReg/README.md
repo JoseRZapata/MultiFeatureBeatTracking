@@ -1,5 +1,4 @@
-MultiFeature Beat tracking (Regularity)
-=========================================== 
+# MultiFeature Beat tracking (Regularity)
 
 Submission of the Multi Feature Beat tracker to the MIREX 2013 Audio Beat Tracking task,
 Using the Beat tracking estimation results from 6 different onset detection functions:
@@ -22,13 +21,10 @@ The beat tracker uses a commitee strategy to obtain the most agreement estimatio
 For more information:
 
 
-Platform 
-----------
+## Platform 
 MATLAB 2013a or Higher
 
-How to use
-----------
-
+## How to use
 In MATLAB The algorithm is called as follows: (Only .Wav audio files)
 
 <code>$ MultiBtReg('InputAudioFile.wav','OutputTextFile.txt'); </code>
@@ -40,10 +36,9 @@ Output:
 Ex:
 <code>$ MultiBtReg('train9.wav','output.txt'); </code>
 
-Essentia Implementation
------------------------
+## Essentia Implementation (Fast)
 
-The Multi Feature Beat Tracker is Implemented in ESSENTIA (http://essentia.upf.edu)
+The Multi Feature Beat Tracker is Implemented in ESSENTIA (http://essentia.upf.edu), there is an example in a jupyter notebook [http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
 
 This configuration only uses 5 onset detection functions due to the disproportionately high computational cost of including the Phase Slope Function
 
@@ -54,10 +49,14 @@ http://essentia.upf.edu/documentation/reference/std_BeatTrackerMultiFeature.html
 
 Essentia Official releases:
 
-* https://github.com/MTG/essentia/
+- https://github.com/MTG/essentia/
 
 D. Bogdanov, N. Wack, E. Gomez, S. Gulati, P. Herrera, O. Mayor, G. Roma, J. Salamon, J.R. Zapata, and X. Serra. 
 Essentia: An audio analysis library for music information retrieval. International Society for Music Information Retrieval Conference (ISMIR'13),  493-498, 2013.
+
+## Application
+
+[Crypt of the NecroDancer](http://necrodancer.com/) is an award winning independent game. Players move on the beat of the music to navigate a dungeon and fight enemies. The game uses the Multi Feature Beat Tracker (implemented in Essentia) beat detection capabilities to allow users to play the game with songs from their own music library.
 
 
 
