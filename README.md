@@ -1,10 +1,11 @@
 # MultiFeature Beat Tracking (Information Gain and Regularity)
-- [How to use](#how-to-use)
-   * [Python jupyter notebook example](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
-   * [Matlab MultiFeature Beat Tracking (Information Gain) ](https://github.com/JoseRZapata/MultiFeatureBeatTracking/tree/master/MultiBtInf)
-   * [Matlab MultiFeature Beat Tracking (Regularity)](https://github.com/JoseRZapata/MultiFeatureBeatTracking/tree/master/MultiBtReg)
-- [Essentia Implementation](#essentia-implementation-fast)
-- [Application](#application)
+- [MultiFeature Beat Tracking (Information Gain and Regularity)](#multifeature-beat-tracking-information-gain-and-regularity)
+  - [How to use](#how-to-use)
+    - [Python](#python)
+    - [Web Online](#web-online)
+    - [Matlab](#matlab)
+  - [Essentia Implementation (Fast)](#essentia-implementation-fast)
+  - [Application](#application)
 
 Submission of the Multi Feature Beat tracker to the MIREX 2013 Audio Beat Tracking task,
 Using the Beat tracking estimation results from 6 different onset detection functions:
@@ -29,6 +30,11 @@ The beat tracker uses a commitee strategy to obtain the most agreement estimatio
 ## How to use
 ### Python
 In Python can be use using Essentia, there is an [example in a jupyter notebook](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
+
+### Web Online
+
+https://mtg.github.io/essentia.js-examples/rhythm.html
+
 ### Matlab
 In MATLAB 2013a or Higher The algorithm is called as follows: (Only .Wav audio files)
 
