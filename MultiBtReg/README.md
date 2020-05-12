@@ -38,7 +38,8 @@ Ex:
 
 ## Essentia Implementation (Fast)
 
-The Multi Feature Beat Tracker is Implemented in ESSENTIA (http://essentia.upf.edu), there is an example in a jupyter notebook [http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
+The Multi Feature Beat Tracker is Implemented in ESSENTIA (http://essentia.upf.edu), there is an example in a jupyter notebook
+[http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb](http://nbviewer.jupyter.org/github/JoseRZapata/MultiFeatureBeatTracking/blob/master/MultiFeatureBeattracking.ipynb)
 
 This configuration only uses 5 onset detection functions due to the disproportionately high computational cost of including the Phase Slope Function
 
